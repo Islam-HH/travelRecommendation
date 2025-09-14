@@ -130,7 +130,7 @@ nav {
     color: white;
 }
 #homeTitle {
-    font-size: 64px;
+    font-size: 72px;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
     width: 56%;
@@ -141,7 +141,7 @@ nav {
     font-family: "Sansation", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 600px;
+    width: 620px;
     margin-top: 20px;
     text-align: justify;
 }
@@ -160,7 +160,10 @@ nav {
     background-image: linear-gradient(90deg, rgba(159, 99, 160, 1) 0%, rgba(80, 73, 148, 1) 100%);
     cursor: pointer;
 }
-.aboutUsSearch {
+
+/*About_Us Styling*/
+
+.hiddenSearch {
     visibility: hidden;
 }
 #aboutUs {
@@ -179,12 +182,29 @@ nav {
     width: 80%;
     text-align: justify;
 }
+#aboutUs h1{
+    font-family: "sansation", sans-serif;
+    font-size: 72px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.logoNameLarge {
+    font-family: "audiowide",sans-serif;
+    font-size: 72px ;
+    font-weight: 400;
+}
+.logoNameSmall {
+    font-family: "audiowide",sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+}
 #aboutUsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
+
 #ourTeam {
     color: white;
     width: 80%;
@@ -213,15 +233,121 @@ nav {
     border-radius: 35px;
 }
 .jobTitle {
-    width: 90%;
-    height: 25px;
+    width: 70%;
+    height: 35px;
     border: 1px solid white;
     border-radius: 20px;
     background-color: rgba(159, 99, 160, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 }
 .teamMember img {
     width: 75px;
+}
+
+/*Contact_Us Styling*/
+
+#contactUsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactUs {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#contactUs form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 20px 25px;
+    width: 50%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    border-radius: 25px;
+    height: 450px;
+    color: white;
+    box-sizing: border-box;
+}
+#contactUs input {
+    height: 35px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    align-self: center;
+    font-size: 16px;
+}
+#contactUs label {
+    font-family: "sansation", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+#contactUs textarea {
+    font-size: 16px;
+    height: 100px;
+    width: 90%;
+    align-self: center;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contactUs h1 {
+    color: white;
+    font-family: "sansation", sans-serif;
+    font-size: 72px;
+    padding-top: 50px;
+}
+#contactUs button {
+    height: 45px;
+    width: 60%;
+    align-self: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(159, 99, 160, 1);
+    font-family: "sansation", sans-serif;
+    margin-top: 10px;
+}
+#contactUs button:hover {
+    background-image: linear-gradient(90deg, rgba(159, 99, 160, 1) 0%, rgba(80, 73, 148, 1) 100%);
+    cursor: pointer;
+}
+#contactUs h3 {
+    color: white;
+    font-family: "sansation", sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    width: 100%;
+}
+#footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    color: white;
+    font-family: "sansation", sans-serif;
+    font-size: 18px;
+}
+footer a {
+    color: white;
+    font-family: "sansation", sans-serif;
+    text-decoration: none;
+}
+footer h4 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAV-TRAV</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="./travel_recommendation.css">
     <link rel="icon" type="image/png" href="./Images/logo with backgroundAsset 1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
                 <a href="about_us.html">About Us</a>
                 <a href="contact_us.html">Contact Us</a>
             </div>
-            <div id="navSearch">
+            <div id="navSearch" class="hiddenSearch">
                 <input type="text" name="searchInput" id="searchInput" placeholder="Enter a destination or keyword">
                 <div id="searchBtns">
                     <button>Search</button>
@@ -31,20 +31,21 @@
             </div>
         </nav>
     </div>
-    <div id="home" class="containerBackground">
-        <div id="homeContent">
-            <h1 id="homeTitle">Crafting your journey, One plan at a time</h1>
-            <p id="homeArticle">Hello there, and welcome to <span class="logoNameSmall">WanderFlow</span>,
-                your new favorite travel companion!</br></br>
-                We believe that every journey should be as unique as the person taking it.
-                That's why we don't just offer trips; we craft personalized travel plans designed to fit your style,
-                budget, and sense of adventure. Whether you're dreaming of a bustling city escape,
-                a tranquil beach retreat, or an epic cross-country road trip,
-                we'll guide you every step of the way.</br></br>
-                With <span class="logoNameSmall">WanderFlow</span>, your next unforgettable adventure is just a click away.</br>
-                Let's start crafting your journey, one plan at a time.</br></br>
-            </p>
-            <button id="bookingBtn">Start Your Journey</button> 
+    <div id="contactUsContainer" class="containerBackground">
+        <div id="contactUs">
+            <div>
+                <h1>CONTACT US</h1>
+                <h3>We'd love to hear from you!</h3>
+            </div>
+            <form>
+                <label for="name">Name:</br></label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </div>
     <div id="socialSection">
