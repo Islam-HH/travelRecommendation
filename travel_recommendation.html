@@ -5,22 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAV-TRAV</title>
     <link rel="stylesheet" href="./travel_recommendation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div id="navContainer">
-            <a href="travel_recommendation.html" ><img src="./Images/logo.png" alt="logo image" style="height: 50px;">NAV-TRAV</a>
-            <div>
+    <div id="navBar">
+        <nav>
+            <div id="logo">
+                <a href="travel_recommendation.html" ><img src="./Images/logo.png" alt="logo image"></a>
+                <a href="travel_recommendation.html">NAV-TRAV</a>
+            </div>
+            <div id="navLinks">
                 <a href="travel_recommendation.html">Home</a>
                 <a href="#">About Us</a>
-                <a href="#">Contact US</a>
+                <a href="#">Contact Us</a>
             </div>
-            <div>
+            <div id="navSearch">
                 <input type="text" name="searchInput" id="searchInput" placeholder="Enter a destination or keyword">
-                <button type="submit">Search</button>
-                <button type="reset">Clear</button>
+                <div id="searchBtns">
+                    <button>Search</button>
+                    <button>Clear</button>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+    <div>
+        
+    </div>
 </body>
 </html>
