@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'sansation', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.background {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+#navBar {
+    height: 120px;
+    background-image: linear-gradient(90deg, rgba(159, 99, 160, 1), rgba(80, 73, 148, 1));
+}
+#logoContainer {
+    width: 267px;
+    height: 84px;
+}
+#logoImg {
+    width: 60px;
+    height: 84px;
+}
+#logoTxt {
+    width: 193px;
+    font-family: 'audiowide', monospace;
+    font-size: 28px;
+    color: white;
+}
+#navLinks a {
+    font-size: 16px;
+    font-weight: bold;
+}
+nav {
+    width: 1140px;
+    margin: 0px auto;
+}
+.flex_row_center_spaceBetween {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+#socialSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 55px;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    transition: all;
+    transition-duration: 1s;
+}
+.socialIcon {
+    width: 35px;
+    margin: 10px 0px;
+    transition: all;
+    transition-duration: 200ms;
+}
+.socialIcon:hover {
+    width: 45px;
+    cursor: pointer;
+}
+#navSearch {
+    width: 364px;
+    height: 40px;
+    position: relative;
+}  
+#navSearch input {
+    width: 364px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+}
+#searchBtns {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+button {
+    background-color: rgba(159, 99, 160, 1);
+    border-radius: 15px;
+}
+button:hover {
+    background-image: linear-gradient(90deg, rgba(159, 99, 160, 1), rgba(80, 73, 148, 1));
+}
+#searchBtn, #clearBtn {
+    padding: 0px 10px;
+    font-size: 14px;
+}
