@@ -31,21 +31,23 @@
             </div>
         </nav>
     </div>
-    <div id="contactUsContainer" class="background container">
-        <div id="contactUs">
-            <div>
-                <h1>CONTACT US</h1>
-                <h3>We'd love to hear from you!</h3>
+    <div id="contactUsContainer" class="background">
+        <div class="content_row container">    
+            <div id="contactUs" class="content_row">
+                    <div>
+                        <h1>CONTACT US</h1>
+                        <h3>We'd love to hear from you!</h3>
+                    </div>
+                    <form class="content_column">
+                        <label for="name">Name:</br></label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
             </div>
-            <form>
-                <label for="name">Name:</br></label>
-                <input type="text" name="name" id="name" placeholder="Enter your name">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
         </div>
     </div>
     <div id="socialSection" class="flex_column_center_spaceBetween">
