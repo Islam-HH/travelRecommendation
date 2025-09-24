@@ -56,6 +56,7 @@ a {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    padding: 10px;
 }
 .teamMember p {
     font-size: 18px;
@@ -66,6 +67,20 @@ a {
 .teamMember img {
     width: 100px;
     height: 100px;
+}
+.jobTitle {
+    width: 220px;
+    height: 35px;
+    background-color: rgba(159, 99, 160, 1);
+    border: 3px solid rgba(80, 73, 148, 1);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8.25px;
+}
+.jobTitle h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 5px;
 }
 .searchImg {
     border-radius: 15px;
@@ -264,5 +279,44 @@ footer h4 {
 }
 #aboutUsContainer {
     width: 1140px;
-    height: 700px;
+    gap: 50px;
+}
+#aboutUs {
+    width: 1140px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+#aboutUs h1 {
+    font-size: 61px;
+    font-weight: bold;
+
+}
+#aboutUs h1 span {
+    font-family: 'audiowide', monospace;
+    font-weight: bold;
+    font-size: 68px;
+}
+#aboutUs p span {
+    font-size: 21px;
+    font-family: 'audiowide', monospace;
+    font-weight: bold;
+}
+#ourTeam {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 25px 45px;
+}
+#ourTeam h1 {
+    font-size: 64px;
+    width: 170px;
+    text-align: center;
 }

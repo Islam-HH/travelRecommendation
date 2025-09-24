@@ -10,7 +10,7 @@ function startSearch(){
     const keyword = searchInput.value.toLowerCase();
     if (!keyword) {
         resultsContainer.innerHTML = '<p>Please enter a search item!</p>';
-        resultsContainer.style.height = "45px";
+        resultsContainer.style.height = "20px";
         resultsContainer.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
         resultsContainer.style.borderRadius = "25px";
         resultsContainer.style.border = "2px solid rgba(80, 73, 148, 1)";
