@@ -46,12 +46,12 @@ a {
     align-items: flex-start;
 }
 .teamMember {
-    width: 250px;
-    height: 290px;
+    width: 240px;
+    height: 240px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -65,20 +65,20 @@ a {
     font-size: 24px;
 }
 .teamMember img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .jobTitle {
-    width: 220px;
-    height: 35px;
+    width: 200px;
+    height: 30px;
     background-color: rgba(159, 99, 160, 1);
     border: 3px solid rgba(80, 73, 148, 1);
     border-radius: 15px;
     text-align: center;
-    padding-top: 8.25px;
+    padding-top: 6.25px;
 }
 .jobTitle h3 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
     padding: 0px 5px;
 }
@@ -310,13 +310,80 @@ footer h4 {
     flex-direction: row;
     justify-content: space-between;
     width: 1140px;
+    height: 250px;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 25px;
-    padding: 25px 45px;
+    padding: 30px 40px;
 }
 #ourTeam h1 {
     font-size: 64px;
     width: 170px;
     text-align: center;
+}
+#contactUs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1140px;
+    height: 520px;
+}
+#contactUs h1 {
+    font-size: 72px;
+}
+#contactUs h3 {
+    font-size: 21px;
+}
+#contactUs form {
+    width: 620px;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 30px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+#contactUs form input {
+    width: 450px;
+    height: 40px;
+    align-self: center;
+    border-radius: 15px;
+    padding-left: 20px;
+    color: black;
+    border: none;
+}
+#contactUs form textarea {
+    width: 450px;
+    height: 120px;
+    border-radius: 15px;
+    align-self: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    border: none;
+}
+#contactUs label {
+    font-size: 21px;
+    font-weight: bold;
+}
+#contactUs button {
+    width: 267px;
+    height: 55px;
+    font-size: 24px;
+    text-align: center;
+    align-self: center;
+    margin-top: 25px;
+}
+#contactUsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 460px;
+    margin-top: 50px;
+    text-align: left;
 }
