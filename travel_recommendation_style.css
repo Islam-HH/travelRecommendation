@@ -291,14 +291,18 @@ footer h4 {
     text-align: left;
 }
 #aboutUs h1 {
-    font-size: 61px;
+    font-size: 58px;
     font-weight: bold;
 
+}
+#aboutUs p {
+    width: 1040px;
+    align-self: center;
 }
 #aboutUs h1 span {
     font-family: 'audiowide', monospace;
     font-weight: bold;
-    font-size: 68px;
+    font-size: 64px;
 }
 #aboutUs p span {
     font-size: 21px;
