@@ -459,7 +459,6 @@ footer h4 {
     #homeContent {
         width: 650px;
         height: 450px;
-        margin-left: 30px;
     }
     .socialIcon {
         width: 35px;
@@ -489,15 +488,18 @@ footer h4 {
         font-size: 14px;
     }
     #ourTeam {
-        height: 250px;
+        height: 230px;
         padding: 15px 25px;
     }
     #aboutUsContainer {
         gap: 10px;
     }
     .teamMember {
-        width: 220px;
-        height: 220px;
+        width: 210px;
+        height: 210px;
+    }
+    #ourTeam h1 {
+        font-size: 58px;
     }
     .teamMember p {
         font-size: 16px;
