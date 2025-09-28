@@ -449,8 +449,9 @@ footer h4 {
         width: 650px;
     }
     #homeArticle {
+        width: 620px;
         height: 160px;
-        font-size: 13px;
+        font-size: 15px;
     }
     #homeArticle span{
         font-size: 21px;
