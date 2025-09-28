@@ -523,6 +523,9 @@ footer h4 {
     #contactUs h3 {
       font-size: 18px;
     }
+    #contactUsTitle {
+        margin-top: 20px;
+    }
     #contactUs form {
         width: 450px;
         height: 420px;
