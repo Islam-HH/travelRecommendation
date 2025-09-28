@@ -553,7 +553,7 @@ footer h4 {
     }
     #searchResultContainer {
         width: 340px;
-        right: -18;
+        right: -18px;
         height: 65vh;
     }
 }
