@@ -402,7 +402,7 @@ footer h4 {
 @media (max-width: 1400px) {
     .container {
         width: 966px;
-        padding-top: 70px;
+        padding-top: 100px;
     }
     nav {
         width: 966px;
@@ -459,6 +459,7 @@ footer h4 {
     #homeContent {
         width: 650px;
         height: 450px;
+        margin-left: 30px;
     }
     .socialIcon {
         width: 35px;
@@ -472,7 +473,16 @@ footer h4 {
         gap: 10px;
     }
     #aboutUs h1 {
-        font-size: 52px;
+        font-size: 48px;
+    }
+    #aboutUs h1 span {
+        font-size: 58px;
+    }
+    #aboutUs p span {
+        font-size: 19px;
+    }
+    #aboutUs {
+        height: 200px;
     }
     #aboutUs p {
         width: 80%;
