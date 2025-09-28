@@ -261,7 +261,7 @@ footer h4 {
     padding: 20px;
     position: absolute;
     top: 90px;
-    right: -15px;
+    right: -16px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -553,6 +553,8 @@ footer h4 {
     }
     #searchResultContainer {
         width: 340px;
+        right: -18;
+        height: 65vh;
     }
 }
 @media (max-width:1024px) {
