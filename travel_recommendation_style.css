@@ -166,6 +166,7 @@ nav {
     border-radius: 50px;
     transition: all;
     transition-duration: 1s;
+    gap: 15px;
 }
 .socialIcon {
     width: 42px;
